@@ -1,0 +1,15 @@
+﻿<Window x:Class="DragAndDropExample.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Canvas DragOver="Canvas_DragOver" Name="can">
+        <Ellipse Name="ellipse" Height="40" Width="40"  Fill="Red"
+                 DragEnter="Ellipse_DragEnter"
+                 MouseDown="Ellipse_MouseDown"></Ellipse>
+        <Rectangle Name="rect" Height="100" Width="100" Canvas.Top="10" Canvas.Left="126" AllowDrop="True"
+                   Fill="Aqua" DragOver="rect_DragOver" Drop="rect_Drop"
+            ></Rectangle>
+        <TextBlock Name="dragOverCanvas" Canvas.Left="40" TextWrapping="Wrap" Text="TextBlock" Canvas.Top="198" Height="25" Width="272"/>
+        <TextBlock Name="dragOverRectangle" Canvas.Left="40" TextWrapping="Wrap" Text="TextBlock" Canvas.Top="242"/>
+    </Canvas>
+</Window>
