@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContainerControlsExample", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DragAndDropExample", "DragAndDropExample\DragAndDropExample.csproj", "{B04696DE-6CC4-4484-B71D-E1077C9740BB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataBindingExample", "DataBindingExample\DataBindingExample.csproj", "{4C88173F-9757-499B-9271-B067394AC394}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{B04696DE-6CC4-4484-B71D-E1077C9740BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B04696DE-6CC4-4484-B71D-E1077C9740BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B04696DE-6CC4-4484-B71D-E1077C9740BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C88173F-9757-499B-9271-B067394AC394}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C88173F-9757-499B-9271-B067394AC394}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C88173F-9757-499B-9271-B067394AC394}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C88173F-9757-499B-9271-B067394AC394}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
