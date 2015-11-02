@@ -68,5 +68,10 @@ namespace DragAndDropExample
 
             rect.Fill = new SolidColorBrush() { Color = newColor };
         }
+
+        private void Ellipse_DragEnter(object sender, DragEventArgs e)
+        {
+
+        }
     }
 }
