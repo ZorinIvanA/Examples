@@ -43,8 +43,13 @@
   <ItemGroup>
     <Compile Include="AddressParser.cs" />
     <Compile Include="Bridge.cs" />
+    <Compile Include="Chain.cs" />
     <Compile Include="Flyweight.cs" />
+    <Compile Include="Interpreter.cs" />
+    <Compile Include="Observer.cs" />
     <Compile Include="Proxy.cs" />
+    <Compile Include="TemplateMethod.cs" />
+    <Compile Include="Visitor.cs" />
     <Compile Include="Wrapper.cs" />
     <Compile Include="Facade.cs" />
     <Compile Include="Order.cs" />
